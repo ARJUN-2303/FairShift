@@ -1,0 +1,18 @@
+{
+  "name": "fairshift",
+  "version": "0.2.0",
+  "description": "FairShift: fair work, clear wages, safer workplaces.",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

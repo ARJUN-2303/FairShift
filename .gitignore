@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Secrets and credentials: never commit these
+.env
+.env.*
+!.env.example
+*service-account*.json
+*serviceAccount*.json
+*-firebase-adminsdk-*.json
+serviceAccountKey.json
+*.pem
+*.key
+
+# Firebase / Google Cloud local files
+.firebase/
+firebase-debug.log*
+firestore-debug.log
+ui-debug.log
+.gcloud/
+
+# Logs, test output, build artifacts
+logs/
+*.log
+npm-debug.log*
+coverage/
+dist/
+build/
+*.tgz
+*.zip
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
